@@ -1,0 +1,69 @@
+@tailwind components;
+@layer components {
+ .DivPrimary {
+    @apply
+    h-[100vh]
+     w-full
+      grid
+    place-items-center
+ }
+ .DivContent {
+    @apply
+
+    w-full
+    h-full
+  bg-white
+    flex
+
+    md:w-[75%]
+     md:h-[95%]
+    md:rounded-2xl
+    md:shadow-sm
+  md:shadow-[#F5D012]
+
+ }
+ .DivBgImage {
+
+    @apply
+    hidden
+    w-[60%]
+    bg-[url('/imgLateral.png')]
+    rounded-l-2xl
+     md:grid
+    place-items-center
+ }
+ .ContentForm {
+
+    @apply
+
+    w-full
+
+ }
+ .HeaderMobile {
+    @apply
+    w-full
+    h-[20vh]
+    flex
+    border-b
+  border-[#F5BC12]
+    border-opacity-40
+    md:border-none
+    md:mt-3
+    md:ml-3
+    md:w-auto
+ }
+ .Buttonback {
+    @apply
+    border-[#FFB90C]
+    hover:bg-[#F5D012]
+    hover:border
+}
+.Divlogo {
+    @apply
+    grid
+    place-items-center
+    bm:w-full
+    bm:ml-36
+}
+
+}
